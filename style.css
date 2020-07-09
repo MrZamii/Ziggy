@@ -82,8 +82,48 @@ header p {
   }
 }
 
+.categories {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.categories a {
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+}
+.cat-card {
+  /* border: 1px solid red; */
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  border-radius: 31px;
+  transition: all 0.2s ease-in-out;
+}
+.cat-card:hover {
+  transform: scale(1.1);
+}
+.drums {
+  background-image: url(./DrumsLabel.svg);
+}
+.guitar {
+  background-image: url(./GuitarLabel.svg);
+}
+.piano {
+  background-image: url(./PianoLabel.svg);
+}
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
 @media screen and (max-width: 768px) {
-  .pads {
+  .pads,
+  .categories {
     justify-content: center;
   }
 }
