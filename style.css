@@ -122,6 +122,9 @@ header p {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    margin-top: 200px;
+  }
   .pads,
   .categories {
     justify-content: center;
