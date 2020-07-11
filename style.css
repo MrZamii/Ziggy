@@ -108,13 +108,13 @@ header p {
   transform: scale(1.1);
 }
 .drums {
-  background-image: url(./DrumsLabel.svg);
+  background-image: url(./images/DrumsLabel.svg);
 }
-.guitar {
-  background-image: url(./GuitarLabel.svg);
+.random {
+  background-image: url(./images/RandomLabel.svg);
 }
 .piano {
-  background-image: url(./PianoLabel.svg);
+  background-image: url(./images/PianoLabel.svg);
 }
 .logo a {
   text-decoration: none;
