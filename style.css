@@ -120,10 +120,20 @@ header p {
   text-decoration: none;
   color: #fff;
 }
-
+.footer {
+  padding: 20px;
+}
+.footer p {
+  font-size: 20px;
+}
+.footer a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
 @media screen and (max-width: 768px) {
   header {
-    margin-top: 200px;
+    margin-top: 150px;
   }
   .pads,
   .categories {
